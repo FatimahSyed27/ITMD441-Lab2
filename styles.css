@@ -8,7 +8,8 @@
 }
 
 #flex-section1 ul li {
-  flex-grow: 1;
+  flex: 1;
+  margin: 0 10px;
 }
 
 /* end Flexbox Part 1 */
