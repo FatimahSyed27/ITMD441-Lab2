@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
+  align-items: center;
 }
 
 #flex-section1 ul li {
