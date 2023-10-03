@@ -7,10 +7,6 @@
   align-items: center;
 }
 
-#flex-section1 ul li {
-  flex: 1;
-}
-
 /* end Flexbox Part 1 */
 
 
@@ -57,13 +53,6 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-}
-
-#flex-section3 .tags ul li {
-  margin: 5px;
-  padding: 5px 10px;
-  background-color: #ccc;
-  border-radius: 5px;
 }
 
 /* end Flexbox Part 3 */
