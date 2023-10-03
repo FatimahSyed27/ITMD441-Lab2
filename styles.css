@@ -1,7 +1,15 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;	
+}
 
+#flex-section1 nav li {
+  flex: 1;
+  margin: 0 10px;
 }
 
 /* end Flexbox Part 1 */
@@ -35,11 +43,23 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #flex-section3 .tags ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
 
+#flex-section3 .tags li {
+  background-color: #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 /* end Flexbox Part 3 */
